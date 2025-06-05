@@ -1,0 +1,98 @@
+body {
+  background-color: #18181B;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+h1 {
+  color: #FACC15;
+  text-align: center;
+}
+
+.parent {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: #2A2A40;
+  width: 400px;
+  height: 480px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+
+.display {
+  width: 93%;
+  height: 59px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.6rem;
+  text-align: right;
+  padding: 10px 15px;
+  color: #FACC15;               /* Gold text */
+  background-color: #1F2937;    /* Dark slate background */
+  font-weight: 600;
+  box-sizing: border-box;
+  box-shadow: inset 0 0 8px rgba(250, 204, 21, 0.2); /* Optional glow */
+}
+.buttons {
+  background-color: #2A2A40;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 20px;
+}
+
+.btn {
+  width: 80px;
+  height: 55px;
+  background-color: #3B3B5E;
+  color: #FFD447;
+  cursor: pointer;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  transition: 0.2s ease-in-out;
+  box-shadow: 0 4px #1F2937;
+}
+
+.btn:hover {
+  border: 2px solid #6366F1;
+  box-shadow: 0 0 10px #6366F1, inset 0 0 5px #6366F1;
+}
+
+/* Special wide buttons */
+.btnspace {
+  width: 180px;
+  height: 45px;
+  background-color: #0EA5E9;  /* Replaced pink */
+  color: white;              /* Updated for better contrast */
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.btnspace:hover {
+  background-color: #0284C7;
+  box-shadow: 0 0 15px #0EA5E9;
+}
+
+
+
+/* Input alignment */
+input[type="text"], textarea {
+  text-align: right;
+}
+ 
