@@ -37,11 +37,11 @@ h1 {
   font-size: 1.6rem;
   text-align: right;
   padding: 10px 15px;
-  color: #FACC15;               /* Gold text */
-  background-color: #1F2937;    /* Dark slate background */
+  color: #FACC15;               
+  background-color: #1F2937;    
   font-weight: 600;
   box-sizing: border-box;
-  box-shadow: inset 0 0 8px rgba(250, 204, 21, 0.2); /* Optional glow */
+  box-shadow: inset 0 0 8px rgba(250, 204, 21, 0.2); 
 }
 .buttons {
   background-color: #2A2A40;
@@ -71,12 +71,12 @@ h1 {
   box-shadow: 0 0 10px #6366F1, inset 0 0 5px #6366F1;
 }
 
-/* Special wide buttons */
+
 .btnspace {
   width: 180px;
   height: 45px;
-  background-color: #0EA5E9;  /* Replaced pink */
-  color: white;              /* Updated for better contrast */
+  background-color: #0EA5E9;  
+  color: white;              
   font-size: 16px;
   border: none;
   border-radius: 8px;
@@ -91,7 +91,7 @@ h1 {
 
 
 
-/* Input alignment */
+
 input[type="text"], textarea {
   text-align: right;
 }
